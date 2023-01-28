@@ -1,0 +1,100 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+    color:rgb(0, 0, 0);
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+#showcase{
+    background-image: url(./images/pex4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    padding:0 8px; 
+    text-align: center;
+}
+
+#showcase h1{
+    font-size:45px ;
+    text-shadow: 1px 1px 10px  rgb(255, 255, 255);
+    padding:0 5px;
+    line-height: 1.2;
+
+}
+
+#showcase p{
+    font-size: 20px;
+    text-shadow: 1px 1px 10px  rgb(255, 255, 255);
+}
+.button{
+    font-size:18px;
+    text-decoration: none;
+    color:#35caf0;
+    margin-top:30px;
+    padding:10px 20px;
+    border:1px solid #35caf0;
+    border-radius:10px;
+}
+
+.button:hover{
+    background-color: aliceblue;
+    color:black;
+}
+#section-a{
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    display:flex;
+    height: 70vh;
+}
+#section-b{
+    height: 70vh;
+    background-color:#d3d3d3 ;
+    display:flex;
+}
+#section-c{
+    display:flex;
+}
+ #section-c .box1,#section-c .box3{
+    background-color: #925239;
+    color:whitesmoke;
+ }
+ section{
+    padding:20px;
+    border-radius: 5px;
+    text-align: center;
+ }
+section div{
+    border-radius: 5px;
+    padding:5px;
+}
+.image{
+    width: 50%;
+    background-image: url(./images/tree.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+}
+.image2{
+    width: 50%;
+    background-image: url(./images/family.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+}
+section p{
+    width: 50%;
+    padding:5px;
+}
