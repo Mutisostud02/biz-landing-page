@@ -20,13 +20,23 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;   
     padding:0 8px; 
     text-align: center;
 }
+.head1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:10vh;
+}
 
-#showcase h1{
+#showcase .head1 h1{
+    margin-top:10vh;
     font-size:45px ;
     text-shadow: 1px 1px 10px  rgb(255, 255, 255);
     padding:0 5px;
@@ -34,11 +44,13 @@ body{
 
 }
 
-#showcase p{
+#showcase .head1 p{
+    margin-top: 10px;
     font-size: 20px;
     text-shadow: 1px 1px 10px  rgb(255, 255, 255);
 }
 .button{
+    width: 8rem;
     font-size:18px;
     text-decoration: none;
     color:#35caf0;
@@ -52,20 +64,53 @@ body{
     background-color: aliceblue;
     color:black;
 }
+
+.head2{
+    width: 100vw;
+    margin-bottom: 10px;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    font-weight: normal;
+    color:aqua;
+    text-shadow: 0.5px 0.5px 0.5px white;
+    list-style-type: none;
+    cursor:pointer;
+    padding:5px;
+    
+    border-radius: 5px;
+}
+li:hover{
+    background-color: aliceblue;
+    color: #293b3b;
+}
+li:active{
+    color:gold;
+}
+
 #section-a{
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #293b3b;
     text-align: center;
     display:flex;
-    height: 70vh;
+    height: 50vh;
 }
 #section-b{
-    height: 70vh;
-    background-color:#d3d3d3 ;
+    height: 50vh;
+    background-color:#1a1919d7 ;
     display:flex;
+    
 }
 #section-c{
+    height: 50vh;
     display:flex;
+    justify-content: center;
+    
+   
 }
  #section-c .box1,#section-c .box3{
     background-color: #925239;
@@ -97,4 +142,9 @@ section div{
 section p{
     width: 50%;
     padding:5px;
+    color:rgb(187, 187, 187);
+}
+.box1 p{
+text-align: center;
+
 }
