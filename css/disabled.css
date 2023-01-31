@@ -17,18 +17,7 @@ body{
     overflow-x: hidden;
 }
 
-#showcase{
-    background-image: linear-gradient(rgba(87, 179, 221, 0.4),rgba(56, 157, 170, 0.2)),url(./images/pex4.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;   
-    padding:0 8px; 
-    text-align: center;
-}
+
 .head1{
     display: flex;
     flex-direction: column;
@@ -39,7 +28,7 @@ body{
     top:25vh;
 }
 #showcase{
-    background-image: linear-gradient(rgba(87, 179, 221, 0.4),rgba(56, 157, 170, 0.2)),url(./images/pex6.jpg);
+    background-image: linear-gradient(rgba(87, 179, 221, 0.4),rgba(56, 157, 170, 0.2)),url(../images/21.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -95,6 +84,24 @@ body{
 }
 i{
     color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    position: relative;
+}
+nav i{
+    
+   margin:1px;
+    font-size: 1rem;
+    position: relative;
+    top:10px;
+    left:5px;
+    
+}
+nav a i:hover{
+    background-color: #293b3b;
 }
 nav ul li a:hover{
     color: #78d8f0;
@@ -196,12 +203,12 @@ nav ul ul li{
         margin-right: 5px;
     }
     nav>ul{
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
     nav ul li{
         display: inline-block;
-        width:25vw;
+        width:27vw;
         text-align: center;
        
     }
@@ -257,11 +264,14 @@ li:active{
     display:flex;
     
 }
+
 #section-c{
-    height: 60vh;
+    height: 25vh;
     justify-content: center;
     margin:0;
     width: 100vw;
+    padding-bottom:0;
+
     
    
 }
@@ -276,40 +286,110 @@ li:active{
  }
 section div{
     border-radius: 5px;
-    padding:5px;
+    padding:2px;
 }
 .image{
-    width: 40vw;
+    width: 45vw;
     
 }
 .imageCh{
-    background-image: url(./images/tree.jpg);
+    background-image: url(../images/17.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     border-radius: 7px;
     height:70%;
-    margin:0;
+    margin-top:8%;
     padding:2px;
 }
 .image2{
-    width: 40vw;
+    width: 45vw;
    
 }
 .imageCh2{
-    background-image: url(./images/family.jpg);
+    background-image: url(../images/19.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     border-radius: 7px;
     height: 70%;
-    margin: 0;
+    margin-top: 8%;
+    margin-right: 5%;
     padding: 2px;
 }
 section p{
-    width: 60vw;
+    
     padding:5px;
     color:rgb(187, 187, 187);
 }
+section .parag{
+ width: 55vw;
+ position: relative;
+ color:gray;
+ margin-top: 5%;
+}
+#section-b .parag{
+    margin-top: 5%;
+}
+
+section .parag h2{
+    position: relative;
+    top:-5px;
+    margin-top:1px;
+    padding-top:0;
+    color: gray;
+}
+.box1{
+    padding:5px;
+}
 .box1 p{
 text-align: center;
+color: gray;
 
+}
+button a{
+    text-decoration: none;
+    color:rgb(58, 247, 68);
+}
+button a i{
+  color:rgb(28, 226, 28);
+  padding:3px;
+}
+button .anch i{
+    color:rgb(3, 39, 116);
+}
+button .anch{
+    color:rgb(3, 39, 116);
+}
+button{
+    background-color: azure;
+    width: 300px;
+    margin:2px;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: #b8e9f5;
+}
+.number{
+    border-radius: 5px;
+}
+
+.number a{
+    color:gray;
+    text-shadow: 0.5px 0.5px 0.5px rgb(65, 64, 64);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.number a:hover{
+    color:#293b3b;
+}
+footer{
+    margin:0;
+    padding:5px;
+    background-color: #293b3b;
+    height: 50px;
+    text-align: center;
+    color:white
+}
+@media (prefers-reduced-motion:no-preference){
+    *{scroll-behavior: smooth;}
 }
