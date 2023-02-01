@@ -394,6 +394,7 @@ button:hover{
 }
 .photos picture img{
     flex:1 1 auto;
+    
     }
 footer{
     margin:0;
